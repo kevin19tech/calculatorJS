@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pretoPrincipal:#1B191A;
+    --cinzaPrincipal:#d9d9d9;
+    --azulPrincipal:#00BCD4;
+}
+body{
+    background-color:var(--cinzaPrincipal);
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color:var(--pretoPrincipal);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    
+}
+
+.resultado{
+    background-color: var(--pretoPrincipal);
+    border: none;
+    text-align: right;
+    font-size: 1.563rem;
+    padding:5px 0;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 2.313rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.operationButton{
+    background-color: var(--azulPrincipal);
+    color: #ffffff;
+    font-size: 1.875rem;
+    width: 70px;
+    height: 60px;
+    
+    
+}
+/*Ajustes no Botão c*/
+.operationButtonC{
+    flex: 1;
+    margin-right: 5px;
+    border-radius: 10px 0 0 0;
+}
+/*Ajustes no Botão Barra*/
+.operationButtonBar{
+    margin-left: 5px;
+    border-radius: 0 10px 0 0;
+}
+.rowNumbersOperations{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+
+.numbersRow{
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+    
+}
+/*Botões de numero*/
+.buttonNumber{
+    color: var(--azulPrincipal);
+    width: 70px;
+    height: 60px;
+    background-color: var(--pretoPrincipal);
+    font-size: 1.875rem;
+    /*border: 1px solid var(--cinzaPrincipal);*/
+    margin-right: 15px;
+    /*border: 1px solid var(--cinzaPrincipal);*/
+}
+
+#backspace{
+    margin-right: 15px;
+}
+
+

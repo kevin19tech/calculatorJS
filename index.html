@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <title>Calculadora JS</title>
+</head>
+<body>
+  <!--principal Container-->
+  <div class="container">
+    <div class="box">
+      <div class="calculator">
+        <!--Start visor-->
+        <div class="visor">
+          <input type="text" class="resultado" placeholder="0" disabled="disabled">
+        <!--End visor-->
+        </div>
+        <!--Start row 1-->
+        <div class="row">
+          <button type="button" class="operationButton operationButtonC" >C</button>
+          <button type="button" class="operationButton">^</button>
+          <button type="button" class="operationButton operationButtonBar">/</button>
+          
+        </div>
+        <!--End row 1-->
+        <!--Start row 2-->
+        <div class="rowNumbersOperations">
+          <div class="numbersRow">
+            <button type="button" class="buttonNumber">7</button>
+            <button type="button" class="buttonNumber">8</button>
+            <button type="button" class="buttonNumber">9</button>
+          </div>
+          <div>
+            <button type="button" class="operationButton"">X</button>
+          </div>
+          
+        </div>
+        <!--Start row 3-->
+        <div class="rowNumbersOperations">
+          <div class="numbersRow">
+            <button type="button" class="buttonNumber">4</button>
+            <button type="button" class="buttonNumber">5</button>
+            <button type="button" class="buttonNumber">6</button>
+          </div>
+          <div>
+            <button type="button" class="operationButton"">-</button>
+          </div>
+        </div>
+        <!--End row 3-->
+        <!--Start row 4-->
+        <div class="rowNumbersOperations">
+          <div class="numbersRow">
+            <button type="button" class="buttonNumber">1</button>
+            <button type="button" class="buttonNumber">2</button>
+            <button type="button" class="buttonNumber">3</button>
+          </div>
+          <div>
+            <button type="button" class="operationButton">+</button>
+            
+          </div>
+        </div>
+        <!--End row 4-->
+        <!--Start row 5-->
+        <div class="rowNumbersOperations">
+          <div class="numbersRow">
+            <button type="button" class="buttonNumber">0</button>
+            <button type="button" class="buttonNumber">.</button>
+            <button type="button" class="operationButton" id="backspace" ><i class="fas fa-backspace"></i></button>
+          </div>
+          <div>
+            <button type="button" class="operationButton">=</button>
+
+          </div>
+            
+          
+          
+        </div>
+        <!--End row 5-->
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
