@@ -8,6 +8,7 @@
     --pretoPrincipal:#1B191A;
     --cinzaPrincipal:#d9d9d9;
     --azulPrincipal:#00BCD4;
+    --verdePrincipal:#2FEB98;
 }
 body{
     background-color:var(--cinzaPrincipal);
@@ -38,8 +39,8 @@ button{
     background-color: var(--pretoPrincipal);
     border: none;
     text-align: right;
-    font-size: 1.563rem;
-    padding:5px 0;
+    font-size: 1.75rem;
+    padding:30px 0 5px 0;
     color: #ffffff;
     font-weight: bold;
     margin-bottom: 2.313rem;
@@ -78,11 +79,7 @@ button{
 }
 
 
-.numbersRow{
-    /*justify-content: space-between;
-    /*border: 1px solid red;*/
-    
-}
+
 /*Botões de numero*/
 .buttonNumber{
     color: var(--azulPrincipal);
@@ -94,6 +91,12 @@ button{
     /*margin-right: 15px;*/
     /*border: 1px solid var(--cinzaPrincipal);*/
 }
-
-
-
+#btnZero{
+   /* border-radius: 0 0 0 10px;
+    border-left: 1px solid var(--azulPrincipal);
+    border-bottom: 1px solid var(--azulPrincipal);*/
+}
+#btnResult{
+    border-radius: 0 0 10px 0;
+    background-color: var(--verdePrincipal);
+}
