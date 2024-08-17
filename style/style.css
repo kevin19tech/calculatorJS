@@ -100,3 +100,14 @@ button{
     border-radius: 0 0 10px 0;
     background-color: var(--verdePrincipal);
 }
+
+footer{
+    border-top: 1px solid var(--azulPrincipal);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--azulPrincipal);
+}
