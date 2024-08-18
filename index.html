@@ -21,8 +21,8 @@
         <!--Start row 1-->
         <div class="row">
           <button onclick="calcular('acao','c')" type="button" class="operationButton operationButtonC" >C</button>
-          <button onclick="calcular('acao','^')" type="button" class="operationButton">^</button>
-          <button type="button" class="operationButton">&radic;</button>
+          <button onclick="calcular('acao','**')" type="button" class="operationButton">^</button>
+          <button onclick="calcular('acao','raiz')" type="button" class="operationButton">&radic;</button>
           <button onclick="calcular('acao','/')" type="button" class="operationButton operationButtonBar">/</button>
           
         </div>
@@ -67,7 +67,7 @@
           
             <button onclick="calcular('valor',0)" type="button" class="buttonNumber" id="btnZero">0</button>
             <button onclick="calcular('acao','.')" type="button" class="buttonNumber">.</button>
-            <button type="button" class="operationButton" id="backspace" ><i class="fas fa-backspace"></i></button>
+            <button onclick="calcular('acao','backspace')" type="button" class="operationButton" id="backspace" ><i class="fas fa-backspace"></i></button>
             <button onclick="calcular('acao','=')" type="button" class="operationButton" id="btnResult">=</button>
 
           
