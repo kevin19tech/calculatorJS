@@ -3,7 +3,7 @@
 
 ## Descrição
 
-Esta é uma calculadora simples desenvolvida com HTML, CSS e JavaScript. 
+Esta é uma calculadora simples desenvolvida com HTML, CSS e JavaScript. A calculadora oferece funcionalidades básicas, como adição, subtração, multiplicação, divisão, potenciação e raiz quadrada. O objetivo deste projeto é praticar conceitos de JavaScript, manipulação de DOM e estilização com CSS.
 
 ## Funcionalidades
 
