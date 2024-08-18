@@ -13,11 +13,20 @@
 body{
     background-color:var(--cinzaPrincipal);
 }
-button{
-    border: none;
+button{ 
     cursor: pointer;
-    
+    border-radius: 10px;
+    margin: 5px;
+}
+button:hover{
+    filter: brightness(1.1);
+}
 
+
+.visor{
+    display: flex;
+    justify-content: end;
+   
 }
 .container{
     display: flex;
@@ -28,10 +37,10 @@ button{
 
 .calculator {
     background-color:var(--pretoPrincipal);
-    padding: 20px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    padding: 10px;
     
 }
 
@@ -39,17 +48,24 @@ button{
     background-color: var(--pretoPrincipal);
     border: none;
     text-align: right;
-    font-size: 1.75rem;
-    padding:30px 0 5px 0;
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: 2.313rem;
+    margin: 2rem 0 2rem 0;
+    font-size:1.875rem;
+    /*font-size: 1.75rem;/*
+    padding:30px 0 5px 0;
+    color: #ffffff;
+    */
 }
 
+#inputResultado{
+    max-width: 300px;
+    
+}
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 .operationButton{
     background-color: var(--azulPrincipal);
@@ -57,25 +73,25 @@ button{
     font-size: 1.875rem;
     width: 70px;
     height: 60px;
-    
+    border: none;
     
 }
 /*Ajustes no Botão c*/
 .operationButtonC{
     
     
-    border-radius: 10px 0 0 0;
+    /*border-radius: 10px 0 0 0;*/
 }
 /*Ajustes no Botão Barra*/
 .operationButtonBar{
     
-    border-radius: 0 10px 0 0;
+    /*border-radius: 0 10px 0 0;*/
 }
 .rowNumbersOperations{
     display: flex;
     flex-direction: row;
-    margin-top: 5px;
-    justify-content: space-between;
+    
+    
 }
 
 
@@ -87,18 +103,16 @@ button{
     height: 60px;
     background-color: var(--pretoPrincipal);
     font-size: 1.875rem;
+    border: 1px solid black;
     /*border: 1px solid var(--cinzaPrincipal);*/
     /*margin-right: 15px;*/
     /*border: 1px solid var(--cinzaPrincipal);*/
 }
-#btnZero{
-   /* border-radius: 0 0 0 10px;
-    border-left: 1px solid var(--azulPrincipal);
-    border-bottom: 1px solid var(--azulPrincipal);*/
-}
+
 #btnResult{
-    border-radius: 0 0 10px 0;
+    /*border-radius: 0 0 10px 0;*/
     background-color: var(--verdePrincipal);
+    border: none;
 }
 
 footer{
