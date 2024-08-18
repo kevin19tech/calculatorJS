@@ -51,7 +51,8 @@ button:hover{
     color: #ffffff;
     font-weight: bold;
     margin: 2rem 0 2rem 0;
-    font-size:;
+    font-size:1.5rem;
+    overflow: hidden;
     /*font-size: 1.75rem;/*
     padding:30px 0 5px 0;
     color: #ffffff;
@@ -59,7 +60,7 @@ button:hover{
 }
 
 #inputResultado{
-    max-width: 300px;
+    width: 100%;
     
 }
 .row{
