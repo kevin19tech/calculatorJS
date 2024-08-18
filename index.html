@@ -20,44 +20,44 @@
         </div>
         <!--Start row 1-->
         <div class="row">
-          <button type="button" class="operationButton operationButtonC" >C</button>
-          <button type="button" class="operationButton">^</button>
+          <button onclick="calcular('acao','c')" type="button" class="operationButton operationButtonC" >C</button>
+          <button onclick="calcular('acao','^')" type="button" class="operationButton">^</button>
           <button type="button" class="operationButton">&radic;</button>
-          <button type="button" class="operationButton operationButtonBar">/</button>
+          <button onclick="calcular('acao','/')" type="button" class="operationButton operationButtonBar">/</button>
           
         </div>
         <!--End row 1-->
         <!--Start row 2-->
         <div class="rowNumbersOperations">
           
-            <button type="button" class="buttonNumber">7</button>
-            <button type="button" class="buttonNumber">8</button>
-            <button type="button" class="buttonNumber">9</button>
+            <button onclick="calcular('valor',7)" type="button" class="buttonNumber">7</button>
+            <button onclick="calcular('valor',8)" type="button" class="buttonNumber">8</button>
+            <button onclick="calcular('valor',9)" type="button" class="buttonNumber">9</button>
 
-            <button type="button" class="operationButton"">X</button>
+            <button onclick="calcular('acao','*')" type="button" class="operationButton"">X</button>
 
           
         </div>
         <!--Start row 3-->
         <div class="rowNumbersOperations">
           
-            <button type="button" class="buttonNumber">4</button>
-            <button type="button" class="buttonNumber">5</button>
-            <button type="button" class="buttonNumber">6</button>
+            <button onclick="calcular('valor',4)" type="button" class="buttonNumber">4</button>
+            <button onclick="calcular('valor',5)" type="button" class="buttonNumber">5</button>
+            <button onclick="calcular('valor',6)" type="button" class="buttonNumber">6</button>
           
           
-            <button type="button" class="operationButton"">-</button>
+            <button onclick="calcular('acao','-')" type="button" class="operationButton"">-</button>
           
         </div>
         <!--End row 3-->
         <!--Start row 4-->
         <div class="rowNumbersOperations">
           
-            <button type="button" class="buttonNumber">1</button>
-            <button type="button" class="buttonNumber">2</button>
-            <button type="button" class="buttonNumber">3</button>
+            <button onclick="calcular('valor',1)" type="button" class="buttonNumber">1</button>
+            <button onclick="calcular('valor',2)" type="button" class="buttonNumber">2</button>
+            <button onclick="calcular('valor',3)" type="button" class="buttonNumber">3</button>
           
-            <button type="button" class="operationButton">+</button>
+            <button onclick="calcular('acao','+')" type="button" class="operationButton">+</button>
             
           
         </div>
@@ -65,10 +65,10 @@
         <!--Start row 5-->
         <div class="rowNumbersOperations">
           
-            <button type="button" class="buttonNumber" id="btnZero">0</button>
-            <button type="button" class="buttonNumber">.</button>
+            <button onclick="calcular('valor',0)" type="button" class="buttonNumber" id="btnZero">0</button>
+            <button onclick="calcular('acao','.')" type="button" class="buttonNumber">.</button>
             <button type="button" class="operationButton" id="backspace" ><i class="fas fa-backspace"></i></button>
-            <button type="button" class="operationButton" id="btnResult">=</button>
+            <button onclick="calcular('acao','=')" type="button" class="operationButton" id="btnResult">=</button>
 
           
             
@@ -82,5 +82,6 @@
   <footer>
     <p>Desenvolvido por <a href="https://kevin19tech.github.io/portifolioKevin/" target="_blank">Kevin Gomes</a></p>
   </footer>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
